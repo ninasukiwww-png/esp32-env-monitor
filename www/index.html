@@ -616,21 +616,7 @@
               state.logInterval = data.log_interval;
               resolve({ success: true });
             }
-        // 日志管理
-        $('#statsTodayBtn').addEventListener('click', (e) => this._loadLogStats('today', e.target));
-        $('#statsWeekBtn').addEventListener('click', (e) => this._loadLogStats('week', e.target));
-        $('#statsMonthBtn').addEventListener('click', (e) => this._loadLogStats('month', e.target));
-
-        $('#refreshLogFilesBtn').addEventListener('click', () => this._loadLogFiles());
-
-        $('#logFileListContainer').addEventListener('click', (e) => {
-          if (e.target.classList.contains('log-download')) {
-            const date = e.target.dataset.date;
-            window.open(CONFIG.API_BASE + '/api/logs/download?date=' + date, '_blank');
-          }
-        });
-
-        // MQTT
+            // MQTT
             else if (endpoint === '/api/mqtt/config') {
               Object.assign(state.mqtt, data);
               resolve({ success: true });
