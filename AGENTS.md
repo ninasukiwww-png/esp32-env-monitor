@@ -1,7 +1,7 @@
 # 项目备忘
 
 ## 仓库
-- GitHub: https://github.com/ninasukiwww-png/esp32-env-monitor
+- GitHub: https://github.com/ninasukiwww-png/esp32-mpy-env
 - `gh` CLI 已登录（`git push` 直接用）
 
 ## ESP32 推送 (COM4)
