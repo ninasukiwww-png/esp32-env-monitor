@@ -2,7 +2,7 @@
 
 ## 仓库
 - GitHub: https://github.com/ninasukiwww-png/esp32-env-monitor
-- Token 在 remote URL 中（`git push` 可直接用）
+- `gh` CLI 已登录（`git push` 直接用）
 
 ## ESP32 推送 (COM4)
 - 串口: COM4
