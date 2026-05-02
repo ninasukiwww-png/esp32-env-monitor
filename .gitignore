@@ -1,0 +1,5 @@
+__pycache__/
+*.pyc
+config.json
+演示/
+esp32_backup/
