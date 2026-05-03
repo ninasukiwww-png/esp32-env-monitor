@@ -6,7 +6,7 @@ CONFIG_FILE = 'config.json'
 SD_CONFIG_FILE = '/sd/config.json'
 
 DEFAULT_CONFIG = {
-    "wifi": {"ssid": "901", "password": "15212609205"},
+    "wifi": {"ssid": "901", "password": ""},
     "sensor": {"type": "DHT22", "interval": 2, "decimal": True},
     "log": {"enabled": True, "interval": 60, "retention_days": 30},
     "mqtt": {"broker": "", "port": 1883, "user": "", "password": "", "pub_topic": "sensor/data"},
